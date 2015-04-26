@@ -1,0 +1,4 @@
+item.exptools:xpEnderP.name=Experience Pearl
+item.exptools:input.name=Input
+item.exptools:output.name=Output
+itemGroup.exptools=Experience Tools
