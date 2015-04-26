@@ -1,244 +1,32 @@
-[14:16:54] [main/INFO]: Setting user: Player68
-[14:16:55] [Client thread/INFO]: LWJGL Version: 2.9.1
-[14:17:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Strings & Things
-[14:17:01] [Sound Library Loader/INFO]: Sound engine started
-[14:17:03] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:17:04] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:17:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Strings & Things
-[14:17:04] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:17:04] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:17:05] [Sound Library Loader/INFO]: Sound engine started
-[14:17:11] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[14:17:11] [Server thread/INFO]: Generating keypair
-[14:17:12] [Server thread/INFO]: Preparing start region for level 0
-[14:17:13] [Server thread/INFO]: Preparing spawn area: 69%
-[14:17:13] [Server thread/INFO]: Changing view distance to 8, from 10
-[14:17:14] [Server thread/INFO]: Player68[local:E:910b44aa] logged in with entity id 439 at (-134.32967851184685, 72.0, 244.96962046491245)
-[14:17:14] [Server thread/INFO]: Player68 joined the game
-[14:17:24] [Server thread/INFO]: Player68 has just earned the achievement [Taking Inventory]
-[14:17:24] [Client thread/INFO]: [CHAT] Player68 has just earned the achievement [Taking Inventory]
-[14:17:27] [Server thread/INFO]: [Player68: Given [Experience Pearl] * 1 to Player68]
-[14:17:27] [Client thread/INFO]: [CHAT] Given [Experience Pearl] * 1 to Player68
-[14:17:29] [Server thread/INFO]: <Player68> -1 : charge is now10
-[14:17:29] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now10
-[14:17:30] [Server thread/INFO]: <Player68> -1 : charge is now9
-[14:17:30] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now9
-[14:17:31] [Server thread/INFO]: <Player68> -1 : charge is now8
-[14:17:31] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now8
-[14:17:32] [Server thread/INFO]: <Player68> -1 : charge is now7
-[14:17:32] [Server thread/INFO]: Player68 hit the ground too hard
-[14:17:32] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now7
-[14:17:32] [Client thread/INFO]: [CHAT] Player68 hit the ground too hard
-[14:17:35] [Server thread/INFO]: <Player68> -1 : charge is now6
-[14:17:35] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now6
-[14:17:36] [Server thread/INFO]: <Player68> -1 : charge is now5
-[14:17:36] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now5
-[14:17:38] [Server thread/INFO]: <Player68> -1 : charge is now4
-[14:17:38] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now4
-[14:17:38] [Server thread/INFO]: <Player68> -1 : charge is now3
-[14:17:38] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now3
-[14:17:39] [Server thread/INFO]: <Player68> -1 : charge is now2
-[14:17:39] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now2
-[14:17:40] [Server thread/INFO]: <Player68> -1 : charge is now1
-[14:17:40] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now1
-[14:17:43] [Server thread/INFO]: Player68 fell from a high place
-[14:17:43] [Client thread/INFO]: [CHAT] Player68 fell from a high place
-[14:17:48] [Server thread/INFO]: <Player68> +1 : charge is now0
-[14:17:48] [Client thread/INFO]: [CHAT] <Player68> +1 : charge is now0
-[14:17:49] [Server thread/INFO]: <Player68> -1 : charge is now2
-[14:17:49] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now2
-[14:17:51] [Server thread/INFO]: <Player68> -1 : charge is now1
-[14:17:51] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now1
-[14:17:54] [Server thread/INFO]: <Player68> +1 : charge is now0
-[14:17:54] [Client thread/INFO]: [CHAT] <Player68> +1 : charge is now0
-[14:17:57] [Server thread/INFO]: <Player68> -1 : charge is now2
-[14:17:57] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now2
-[14:17:58] [Server thread/INFO]: <Player68> -1 : charge is now1
-[14:17:58] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now1
-[14:17:59] [Server thread/INFO]: Player68 suffocated in a wall
-[14:17:59] [Client thread/INFO]: [CHAT] Player68 suffocated in a wall
-[14:18:04] [Server thread/INFO]: <Player68> +1 : charge is now0
-[14:18:04] [Client thread/INFO]: [CHAT] <Player68> +1 : charge is now0
-[14:18:09] [Server thread/INFO]: <Player68> +1 : charge is now2
-[14:18:09] [Client thread/INFO]: [CHAT] <Player68> +1 : charge is now2
-[14:18:10] [Server thread/INFO]: <Player68> -1 : charge is now4
-[14:18:10] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now4
-[14:18:14] [Server thread/INFO]: <Player68> -1 : charge is now3
-[14:18:14] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now3
-[14:18:15] [Server thread/INFO]: <Player68> -1 : charge is now2
-[14:18:15] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now2
-[14:18:16] [Server thread/INFO]: <Player68> -1 : charge is now1
-[14:18:16] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now1
-[14:18:22] [Client thread/INFO]: Warning: Clientside chunk ticking took 141 ms
-[14:18:26] [Server thread/INFO]: <Player68> +1 : charge is now0
-[14:18:26] [Client thread/INFO]: [CHAT] <Player68> +1 : charge is now0
-[14:18:27] [Server thread/INFO]: <Player68> +1 : charge is now2
-[14:18:27] [Client thread/INFO]: [CHAT] <Player68> +1 : charge is now2
-[14:18:27] [Server thread/INFO]: <Player68> +1 : charge is now4
-[14:18:27] [Client thread/INFO]: [CHAT] <Player68> +1 : charge is now4
-[14:18:28] [Client thread/INFO]: Warning: Clientside chunk ticking took 144 ms
-[14:18:28] [Server thread/INFO]: <Player68> +1 : charge is now6
-[14:18:28] [Client thread/INFO]: [CHAT] <Player68> +1 : charge is now6
-[14:18:29] [Server thread/INFO]: <Player68> +1 : charge is now8
-[14:18:29] [Client thread/INFO]: [CHAT] <Player68> +1 : charge is now8
-[14:18:31] [Server thread/INFO]: <Player68> -1 : charge is now10
-[14:18:31] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now10
-[14:18:32] [Server thread/INFO]: <Player68> -1 : charge is now9
-[14:18:32] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now9
-[14:18:32] [Server thread/INFO]: <Player68> -1 : charge is now8
-[14:18:33] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now8
-[14:18:33] [Server thread/INFO]: <Player68> -1 : charge is now7
-[14:18:33] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now7
-[14:18:33] [Server thread/INFO]: <Player68> -1 : charge is now6
-[14:18:33] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now6
-[14:18:34] [Server thread/INFO]: <Player68> -1 : charge is now5
-[14:18:34] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now5
-[14:18:34] [Server thread/INFO]: Player68 hit the ground too hard
-[14:18:34] [Client thread/INFO]: [CHAT] Player68 hit the ground too hard
-[14:18:34] [Server thread/INFO]: <Player68> -1 : charge is now4
-[14:18:34] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now4
-[14:18:35] [Client thread/INFO]: Warning: Clientside chunk ticking took 272 ms
-[14:18:35] [Client thread/INFO]: Warning: Clientside chunk ticking took 572 ms
-[14:18:39] [Server thread/INFO]: <Player68> -1 : charge is now3
-[14:18:39] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now3
-[14:18:39] [Server thread/INFO]: <Player68> -1 : charge is now2
-[14:18:39] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now2
-[14:18:40] [Server thread/INFO]: <Player68> -1 : charge is now1
-[14:18:40] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now1
-[14:18:43] [Server thread/INFO]: <Player68> +1 : charge is now0
-[14:18:43] [Client thread/INFO]: [CHAT] <Player68> +1 : charge is now0
-[14:18:43] [Server thread/INFO]: <Player68> +1 : charge is now2
-[14:18:43] [Client thread/INFO]: [CHAT] <Player68> +1 : charge is now2
-[14:18:44] [Server thread/INFO]: <Player68> +1 : charge is now4
-[14:18:44] [Client thread/INFO]: [CHAT] <Player68> +1 : charge is now4
-[14:18:44] [Server thread/INFO]: <Player68> +1 : charge is now6
-[14:18:44] [Client thread/INFO]: [CHAT] <Player68> +1 : charge is now6
-[14:18:44] [Server thread/INFO]: <Player68> +1 : charge is now8
-[14:18:44] [Client thread/INFO]: [CHAT] <Player68> +1 : charge is now8
-[14:18:46] [Server thread/INFO]: <Player68> -1 : charge is now10
-[14:18:46] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now10
-[14:18:46] [Server thread/INFO]: Player68 hit the ground too hard
-[14:18:46] [Client thread/INFO]: [CHAT] Player68 hit the ground too hard
-[14:19:11] [Server thread/INFO]: <Player68> -1 : charge is now9
-[14:19:11] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now9
-[14:19:13] [Server thread/INFO]: <Player68> +1 : charge is now8
-[14:19:13] [Client thread/INFO]: [CHAT] <Player68> +1 : charge is now8
-[14:19:18] [Server thread/INFO]: <Player68> -1 : charge is now10
-[14:19:18] [Client thread/INFO]: [CHAT] <Player68> -1 : charge is now10
-[14:19:18] [Server thread/INFO]: <Player68> +1 : charge is now9
-[14:19:18] [Client thread/INFO]: [CHAT] <Player68> +1 : charge is now9
-[14:20:58] [Server thread/WARN]: The save is being accessed from another location, aborting
-[14:21:43] [Server thread/WARN]: The save is being accessed from another location, aborting
-[14:22:28] [Server thread/WARN]: The save is being accessed from another location, aborting
-[14:22:34] [Client thread/INFO]: Stopping!
-[14:22:34] [Server thread/INFO]: Stopping server
-[14:22:34] [Server thread/INFO]: Saving players
-[14:22:34] [Server thread/INFO]: Saving worlds
-[14:22:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:22:34] [Server thread/WARN]: The save is being accessed from another location, aborting
-[14:22:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:22:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-textures/items-atlas
-[14:20:20] [Sound Library Loader/INFO]: Sound engine started
-[14:20:28] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[14:20:28] [Server thread/INFO]: Generating keypair
-[14:20:29] [Server thread/INFO]: Preparing start region for level 0
-[14:20:30] [Server thread/INFO]: Preparing spawn area: 50%
-[14:20:30] [Server thread/INFO]: Changing view distance to 8, from 10
-[14:20:31] [Server thread/INFO]: Player571[local:E:f224195a] logged in with entity id 431 at (-170.06993543696703, 81.0, 303.09592479166275)
-[14:20:31] [Server thread/INFO]: Player571 joined the game
-[14:20:32] [Server thread/INFO]: Saving and pausing game...
-[14:20:32] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:20:33] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:20:33] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:20:33] [Server thread/INFO]: Stopping server
-[14:20:33] [Server thread/INFO]: Saving players
-[14:20:33] [Server thread/INFO]: Saving worlds
-[14:20:33] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:20:33] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:20:33] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:20:36] [Client thread/INFO]: Deleting level New World
-[14:20:36] [Client thread/INFO]: Attempt 1...
-[14:20:37] [Client thread/WARN]: Couldn't delete file .\saves\New World\region\r.-1.0.mca
-[14:20:37] [Client thread/WARN]: Couldn't delete directory .\saves\New World\region
-[14:20:37] [Client thread/WARN]: Unsuccessful in deleting contents.
-[14:20:37] [Client thread/INFO]: Attempt 2...
-[14:20:37] [Client thread/WARN]: Couldn't delete file .\saves\New World\region\r.-1.0.mca
-[14:20:37] [Client thread/WARN]: Couldn't delete directory .\saves\New World\region
-[14:20:37] [Client thread/WARN]: Unsuccessful in deleting contents.
-[14:20:38] [Client thread/INFO]: Attempt 3...
-[14:20:38] [Client thread/WARN]: Couldn't delete file .\saves\New World\region\r.-1.0.mca
-[14:20:38] [Client thread/WARN]: Couldn't delete directory .\saves\New World\region
-[14:20:38] [Client thread/WARN]: Unsuccessful in deleting contents.
-[14:20:38] [Client thread/INFO]: Attempt 4...
-[14:20:38] [Client thread/WARN]: Couldn't delete file .\saves\New World\region\r.-1.0.mca
-[14:20:38] [Client thread/WARN]: Couldn't delete directory .\saves\New World\region
-[14:20:38] [Client thread/WARN]: Unsuccessful in deleting contents.
-[14:20:39] [Client thread/INFO]: Attempt 5...
-[14:20:39] [Client thread/WARN]: Couldn't delete file .\saves\New World\region\r.-1.0.mca
-[14:20:39] [Client thread/WARN]: Couldn't delete directory .\saves\New World\region
-[14:20:39] [Client thread/WARN]: Unsuccessful in deleting contents.
-[14:20:46] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[14:20:46] [Server thread/INFO]: Generating keypair
-[14:20:46] [Server thread/INFO]: Converting map!
-[14:20:46] [Server thread/INFO]: Scanning folders...
-[14:20:46] [Server thread/INFO]: Total conversion count is 0
-[14:20:47] [Server thread/INFO]: Preparing start region for level 0
-[14:20:48] [Server thread/INFO]: Preparing spawn area: 10%
-[14:20:49] [Server thread/INFO]: Preparing spawn area: 17%
-[14:20:50] [Server thread/INFO]: Preparing spawn area: 25%
-[14:20:51] [Server thread/INFO]: Preparing spawn area: 34%
-[14:20:52] [Server thread/INFO]: Preparing spawn area: 48%
-[14:20:53] [Server thread/INFO]: Preparing spawn area: 64%
-[14:20:54] [Server thread/INFO]: Preparing spawn area: 80%
-[14:20:55] [Server thread/INFO]: Preparing spawn area: 96%
-[14:20:55] [Server thread/INFO]: Changing view distance to 8, from 10
-[14:20:55] [Server thread/INFO]: Player571[local:E:ef1fb839] logged in with entity id 848 at (-251.5, 69.0, -0.5)
-[14:20:55] [Server thread/INFO]: Player571 joined the game
-[14:21:01] [Client thread/INFO]: Warning: Clientside chunk ticking took 130 ms
-[14:21:01] [Client thread/INFO]: Warning: Clientside chunk ticking took 130 ms
-[14:21:01] [Client thread/INFO]: Warning: Clientside chunk ticking took 108 ms
-[14:21:01] [Client thread/INFO]: Warning: Clientside chunk ticking took 152 ms
-[14:21:05] [Server thread/INFO]: [Player571: Given [Experience Pearl] * 1 to Player571]
-[14:21:05] [Client thread/INFO]: [CHAT] Given [Experience Pearl] * 1 to Player571
-[14:21:06] [Client thread/INFO]: Warning: Clientside chunk ticking took 627 ms
-[14:21:11] [Server thread/INFO]: Player571 hit the ground too hard
-[14:21:11] [Client thread/INFO]: [CHAT] Player571 hit the ground too hard
-[14:21:14] [Client thread/INFO]: Warning: Clientside chunk ticking took 194 ms
-[14:21:20] [Server thread/INFO]: [Player571: Game rule has been updated]
-[14:21:20] [Client thread/INFO]: [CHAT] Game rule has been updated
-[14:21:22] [Client thread/INFO]: Warning: Clientside chunk ticking took 264 ms
-[14:21:23] [Client thread/INFO]: Warning: Clientside chunk ticking took 256 ms
-[14:21:25] [Client thread/INFO]: [CHAT] /defaultgamemode, /msg, /testfor, /summon, /spreadplayers, /seed, /achievement, /tellraw, /tell, /gamemode, /toggledownfall, /testforblock, /weather, /me, /scoreboard, /give, /debug, /clear, /say, /kill, /spawnpoint, /setblock, /difficulty, /help, /gamerule, /playsound, /forge, /effect, /enchant, /w, /publish, /xp, /time, /tp, /setworldspawn, /?
-[14:21:33] [Client thread/INFO]: [CHAT] There is no such item with ID minecraft:a
-[14:21:34] [Client thread/INFO]: [CHAT] minecraft:arrow, minecraft:anvil, minecraft:apple, minecraft:acacia_stairs, minecraft:activator_rail
-[14:21:35] [Client thread/INFO]: [CHAT] minecraft:arrow, minecraft:anvil, minecraft:apple, minecraft:acacia_stairs, minecraft:activator_rail
-[14:21:35] [Client thread/INFO]: [CHAT] minecraft:arrow, minecraft:anvil, minecraft:apple, minecraft:acacia_stairs, minecraft:activator_rail
-[14:21:38] [Server thread/INFO]: [Player571: Given [Apple] * 64 to Player571]
-[14:21:38] [Client thread/INFO]: [CHAT] Given [Apple] * 64 to Player571
-[14:21:40] [Client thread/INFO]: Warning: Clientside chunk ticking took 236 ms
-[14:21:40] [Server thread/INFO]: Player571 has just earned the achievement [Taking Inventory]
-[14:21:40] [Client thread/INFO]: [CHAT] Player571 has just earned the achievement [Taking Inventory]
-[14:21:43] [Client thread/INFO]: Warning: Clientside chunk ticking took 262 ms
-[14:21:43] [Server thread/INFO]: [Player571: Set own game mode to Creative Mode]
-[14:21:43] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[14:21:45] [Client thread/INFO]: Warning: Clientside chunk ticking took 259 ms
-[14:21:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 624 ms
-[14:21:58] [Client thread/INFO]: Warning: Clientside chunk ticking took 292 ms
-[14:22:00] [Client thread/INFO]: Warning: Clientside chunk ticking took 204 ms
-[14:22:08] [Client thread/INFO]: Warning: Clientside chunk ticking took 135 ms
-[14:22:12] [Server thread/INFO]: [Player571: Set own game mode to Survival Mode]
-[14:22:12] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[14:22:22] [Server thread/INFO]: Player571 hit the ground too hard
-[14:22:22] [Client thread/INFO]: [CHAT] Player571 hit the ground too hard
-[14:22:25] [Server thread/INFO]: Saving and pausing game...
-[14:22:26] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:22:26] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:22:26] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:22:26] [Server thread/INFO]: Stopping server
-[14:22:26] [Server thread/INFO]: Saving players
-[14:22:26] [Server thread/INFO]: Saving worlds
-[14:22:26] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:22:26] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:22:26] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:22:28] [Client thread/INFO]: Stopping!
+[15:45:04] [main/INFO]: Setting user: Player992
+[15:45:05] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:45:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Strings & Things
+[15:45:11] [Sound Library Loader/INFO]: Sound engine started
+[15:45:13] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:45:13] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:45:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Strings & Things
+[15:45:14] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[15:45:14] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[15:45:15] [Sound Library Loader/INFO]: Sound engine started
+[15:45:23] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[15:45:23] [Server thread/INFO]: Generating keypair
+[15:45:24] [Server thread/INFO]: Preparing start region for level 0
+[15:45:25] [Server thread/INFO]: Preparing spawn area: 83%
+[15:45:25] [Server thread/INFO]: Changing view distance to 8, from 10
+[15:45:26] [Server thread/INFO]: Player992[local:E:827abb7e] logged in with entity id 560 at (-259.39220093125414, 64.0, -7.423907377251677)
+[15:45:26] [Server thread/INFO]: Player992 joined the game
+[15:45:26] [Server thread/INFO]: Saving and pausing game...
+[15:45:26] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:45:26] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:45:26] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:45:29] [Server thread/INFO]: Saving and pausing game...
+[15:45:29] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:45:29] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:45:29] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:45:29] [Server thread/INFO]: Stopping server
+[15:45:29] [Server thread/INFO]: Saving players
+[15:45:29] [Server thread/INFO]: Saving worlds
+[15:45:29] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:45:29] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:45:30] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:45:31] [Client thread/INFO]: Stopping!
