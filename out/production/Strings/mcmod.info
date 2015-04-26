@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mod_strings",
+  "name": "Strings & Things",
+  "description": "Things.",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Duggles"],
+  "credits": "Pahimar for his tutorials!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
