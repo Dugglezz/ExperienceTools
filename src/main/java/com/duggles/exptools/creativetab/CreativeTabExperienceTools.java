@@ -1,9 +1,9 @@
 package com.duggles.exptools.creativetab;
 
 
+import com.duggles.exptools.init.ModItems;
 import com.duggles.exptools.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 
 public class CreativeTabExperienceTools
@@ -13,7 +13,7 @@ public class CreativeTabExperienceTools
         @Override
         public Item getTabIconItem()
         {
-            return Items.diamond;
+            return ModItems.xpEnderPearl;
         }
     };
 }
