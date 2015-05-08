@@ -1,4 +1,9 @@
 item.exptools:xpEnderP.name=Experience Pearl
+item.xpPickaxe.name=Experience Pickaxe
+item.xpAxe.name=Experience Axe
+item.xpShovel.name=Experience Shovel
+item.xpSword.name=Experience Sword
+item.xpHoe.name=Experience Hoe?
 item.exptools:input.name=Input
 item.exptools:output.name=Output
 itemGroup.exptools=Experience Tools

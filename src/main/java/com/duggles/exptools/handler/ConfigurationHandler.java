@@ -10,8 +10,9 @@ import java.io.File;
 public class ConfigurationHandler
 {
     public static Configuration configuration;
-    public static int xpCost;
-    public static int maxCharges;
+    public static int pearlXpCost;
+    public static int pearlMaxCharge;
+    public static int toolChargeCost;
 
     public static void init(File configFile)
     {
@@ -25,8 +26,9 @@ public class ConfigurationHandler
 
     private static void loadConfiguration()
     {
-        xpCost = configuration.getInt("xpCost", Configuration.CATEGORY_GENERAL, 2, 0, 30, "Experience cost of XpPearl:any value between 0-20");
-        maxCharges = configuration.getInt("maxCharges", Configuration.CATEGORY_GENERAL, 10, 0, 100, "Max number of uses of pearl:any value between 0-20");
+        pearlXpCost = configuration.getInt("pearlXpCost", Configuration.CATEGORY_GENERAL, 1, 0, 30, "Experience cost of XpPearl:any value between 0-20");
+        pearlMaxCharge = configuration.getInt("pearlMaxCharge", Configuration.CATEGORY_GENERAL, 10, 0, 100, "Max number of uses of pearl:any value between 0-20");
+        toolChargeCost = configuration.getInt("toolChargeCost", Configuration.CATEGORY_GENERAL, 1, 0, 30, "Experience cost of recharging a tool:any value between 0-20");
         if (configuration.hasChanged())
         {
             configuration.save();

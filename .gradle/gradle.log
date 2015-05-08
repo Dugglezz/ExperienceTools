@@ -8,8 +8,12 @@
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava UP-TO-DATE
-:compileJava UP-TO-DATE
+:sourceMainJava
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+Note: C:\development\1.7.10\ExperienceTools\build\sources\java\com\duggles\exptools\client\gui\ModGuiConfig.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
 :processResources
 :classes
 :jar
@@ -28,4 +32,4 @@
 
 BUILD SUCCESSFUL
 
-Total time: 30.436 secs
+Total time: 1 mins 9.159 secs
