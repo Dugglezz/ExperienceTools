@@ -13,6 +13,9 @@ public class ConfigurationHandler
     public static int pearlXpCost;
     public static int pearlMaxCharge;
     public static int toolChargeCost;
+    public static int crystalDurability;
+    public static int crystalT2Durability;
+    public static int crystalT3Durability;
 
     public static void init(File configFile)
     {
@@ -26,9 +29,13 @@ public class ConfigurationHandler
 
     private static void loadConfiguration()
     {
-        pearlXpCost = configuration.getInt("pearlXpCost", Configuration.CATEGORY_GENERAL, 1, 0, 30, "Experience cost of XpPearl:any value between 0-20");
-        pearlMaxCharge = configuration.getInt("pearlMaxCharge", Configuration.CATEGORY_GENERAL, 10, 0, 100, "Max number of uses of pearl:any value between 0-20");
-        toolChargeCost = configuration.getInt("toolChargeCost", Configuration.CATEGORY_GENERAL, 1, 0, 30, "Experience cost of recharging a tool:any value between 0-20");
+        pearlXpCost     = configuration.getInt("pearlXpCost",       Configuration.CATEGORY_GENERAL, 1, 0, 20,   "Experience cost of XpPearl");
+        pearlMaxCharge  = configuration.getInt("pearlMaxCharge",    Configuration.CATEGORY_GENERAL, 10, 0, 20,  "Max number of uses of pearl");
+        toolChargeCost  = configuration.getInt("toolChargeCost",    Configuration.CATEGORY_GENERAL, 1, 0, 30,   "Experience cost of recharging a tool");
+
+        crystalDurability =     configuration.getInt("crystalDurability",   Configuration.CATEGORY_GENERAL, 500, 0, 1000,   "Max amount of experience the crystal can store");
+        crystalT2Durability =   configuration.getInt("crystalT2Durability", Configuration.CATEGORY_GENERAL, 1000, 0, 2500,    "Max amount of experience the tier 2 crystal can store");
+        crystalT3Durability =   configuration.getInt("crystalT3Durability", Configuration.CATEGORY_GENERAL, 2500, 0, 10000, "Max amount of experience the tier 3 crystal can store");
         if (configuration.hasChanged())
         {
             configuration.save();

@@ -11,10 +11,13 @@ import static cpw.mods.fml.common.registry.GameRegistry.registerItem;
 @GameRegistry.ObjectHolder(Reference.MODID)
 public class ModItems
 {
-    public static Item.ToolMaterial experienceMaterial = EnumHelper.addToolMaterial("experienceMaterial", 3, 1000, 8.0F, 3.0F, 22);
+    public static Item.ToolMaterial experienceMaterial = EnumHelper.addToolMaterial("experienceMaterial", 3, 1000, 10.0F, 3.0F, 22);
 
     public static final item_exptools xpEnderPearl = new itemXpEnderP();
     public static final item_exptools xpIngot = new itemXpIngot();
+    public static final item_exptools xpCrystal = new itemXpCrystal();
+    public static final item_exptools xpCrystalT2 = new itemXpCrystalT2();
+    public static final item_exptools xpCrystalT3 = new itemXpCrystalT3();
 
     public static ItemPickaxe xpPickaxe;
     public static ItemAxe xpAxe;
@@ -26,6 +29,10 @@ public class ModItems
     {
         registerItem(xpIngot, "xpIngot");
         registerItem(xpEnderPearl, "xpEnderPearl");
+        registerItem(xpCrystal, "xpCrystal");
+        registerItem(xpCrystalT2, "xpCrystalT2");
+        registerItem(xpCrystalT3, "xpCrystalT3");
+
         registerItem(xpPickaxe = new itemXpPickaxe("xpPickaxe", experienceMaterial), "xpPickaxe");
         registerItem(xpAxe = new itemXpAxe("xpAxe", experienceMaterial), "xpAxe");
         registerItem(xpShovel = new itemXpShovel("xpShovel", experienceMaterial), "xpShovel");
