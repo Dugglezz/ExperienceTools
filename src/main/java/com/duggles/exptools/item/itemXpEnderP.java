@@ -7,8 +7,6 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-import java.util.Random;
-
 public class itemXpEnderP extends item_exptools {
     public itemXpEnderP() {
         super();
@@ -17,9 +15,6 @@ public class itemXpEnderP extends item_exptools {
         this.setTextureName(Reference.MODID + ":xpEnderP");
         this.setMaxDamage(10);
         this.isDamageable();
-    }
-
-    public void onCreated(ItemStack p_77622_1_, World p_77622_2_, EntityPlayer p_77622_3_) {
     }
 
 
