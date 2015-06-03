@@ -21,10 +21,10 @@ public class itemXpCrystal extends item_exptools{
         } else {
             if (p_77659_3_.isSneaking()) if (p_77659_1_.getItemDamage() > 0) {
                 float additionalXp = Math.round(p_77659_3_.experience * 10);
-                float pitch = 5.0f / p_77659_1_.getItemDamage();
+                float pitch = 300.0f / p_77659_1_.getItemDamage();
                 if (additionalXp > 0) {
-                    p_77659_3_.addExperience(-1);
-                    p_77659_1_.damageItem(-1, p_77659_3_);
+                    p_77659_3_.addExperience(-2);
+                    p_77659_1_.damageItem(-50, p_77659_3_);
                     p_77659_2_.playSoundAtEntity(p_77659_3_, "note.bass", 0.5F, pitch);
                 } else if (p_77659_3_.experienceLevel > 0) {
                     p_77659_3_.addExperienceLevel(-1);

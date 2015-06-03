@@ -1,6 +1,5 @@
 package com.duggles.exptools.item;
 
-import com.duggles.exptools.handler.ConfigurationHandler;
 import com.duggles.exptools.reference.Reference;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
@@ -12,7 +11,7 @@ public class itemXpCrystalT2 extends item_exptools{
         this.setUnlocalizedName("xpCrystalT2");
         this.setMaxStackSize(1);
         this.setTextureName(Reference.MODID + ":xpCrystalT2");
-        this.setMaxDamage(ConfigurationHandler.crystalT2Durability);
+        this.setMaxDamage(1000);
         this.isDamageable();
     }
 
@@ -24,7 +23,7 @@ public class itemXpCrystalT2 extends item_exptools{
 
             if (p_77659_3_.isSneaking()) if (p_77659_1_.getItemDamage() > 0) {
                 float additionalXp = Math.round(p_77659_3_.experience * 10);
-                float pitch = 5.0f / p_77659_1_.getItemDamage();
+                float pitch = 500.0f / p_77659_1_.getItemDamage();
                 if (additionalXp > 0) {
                     p_77659_3_.addExperience(-1);
                     p_77659_1_.damageItem(-1, p_77659_3_);

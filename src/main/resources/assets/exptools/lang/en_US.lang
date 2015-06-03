@@ -1,9 +1,11 @@
 itemGroup.exptools=Experience Tools
 item.exptools:xpEnderP.name=Experience Pearl
+item.exptools:magicMirror.name=Magic Mirror
 item.exptools:xpIngot.name=Experience Ingot
 item.exptools:xpCrystal.name=Crystal of Experience
 item.exptools:xpCrystalT2.name=Crystal of Greater Wisdom
 item.exptools:xpCrystalT3.name=Crystal of Total Knowledge
+item.exptools:xpWand.name=Wand of Experience
 tile.xpInfuser.name=Experience Infuser
 item.xpPickaxe.name=Experience Pickaxe
 item.xpAxe.name=Experience Axe

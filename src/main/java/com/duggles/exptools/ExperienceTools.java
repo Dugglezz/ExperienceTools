@@ -41,31 +41,34 @@ public class ExperienceTools
     public void init(FMLInitializationEvent event)
     {
         final int WILDCARD_VALUE = Short.MAX_VALUE;
-        ItemStack woodenPickaxe = new ItemStack(Items.wooden_pickaxe,1,WILDCARD_VALUE);
-        ItemStack stonePickaxe  = new ItemStack(Items.stone_pickaxe,1,WILDCARD_VALUE);
-        ItemStack ironPickaxe   = new ItemStack(Items.iron_pickaxe,1,WILDCARD_VALUE);
-        ItemStack woodenAxe     = new ItemStack(Items.wooden_axe,1,WILDCARD_VALUE);
-        ItemStack stoneAxe      = new ItemStack(Items.stone_axe,1,WILDCARD_VALUE);
-        ItemStack ironAxe       = new ItemStack(Items.iron_axe,1,WILDCARD_VALUE);
-        ItemStack woodenSword   = new ItemStack(Items.wooden_sword,1,WILDCARD_VALUE);
-        ItemStack stoneSword    = new ItemStack(Items.stone_sword,1,WILDCARD_VALUE);
-        ItemStack ironSword     = new ItemStack(Items.iron_sword,1,WILDCARD_VALUE);
-        ItemStack woodenShovel  = new ItemStack(Items.wooden_shovel,1,WILDCARD_VALUE);
-        ItemStack stoneShovel   = new ItemStack(Items.stone_shovel,1,WILDCARD_VALUE);
-        ItemStack ironShovel    = new ItemStack(Items.iron_shovel,1,WILDCARD_VALUE);
-        ItemStack woodenHoe     = new ItemStack(Items.wooden_hoe,1,WILDCARD_VALUE);
-        ItemStack stoneHoe      = new ItemStack(Items.stone_hoe,1,WILDCARD_VALUE);
-        ItemStack ironHoe       = new ItemStack(Items.iron_hoe,1,WILDCARD_VALUE);
-        ItemStack xpCrystal     = new ItemStack(ModItems.xpCrystal,1,WILDCARD_VALUE);
+        ItemStack woodenPickaxe  = new ItemStack(Items.wooden_pickaxe,1,WILDCARD_VALUE);
+        ItemStack stonePickaxe   = new ItemStack(Items.stone_pickaxe,1,WILDCARD_VALUE);
+        ItemStack ironPickaxe    = new ItemStack(Items.iron_pickaxe,1,WILDCARD_VALUE);
+        ItemStack woodenAxe      = new ItemStack(Items.wooden_axe,1,WILDCARD_VALUE);
+        ItemStack stoneAxe       = new ItemStack(Items.stone_axe,1,WILDCARD_VALUE);
+        ItemStack ironAxe        = new ItemStack(Items.iron_axe,1,WILDCARD_VALUE);
+        ItemStack woodenSword    = new ItemStack(Items.wooden_sword,1,WILDCARD_VALUE);
+        ItemStack stoneSword     = new ItemStack(Items.stone_sword,1,WILDCARD_VALUE);
+        ItemStack ironSword      = new ItemStack(Items.iron_sword,1,WILDCARD_VALUE);
+        ItemStack woodenShovel   = new ItemStack(Items.wooden_shovel,1,WILDCARD_VALUE);
+        ItemStack stoneShovel    = new ItemStack(Items.stone_shovel,1,WILDCARD_VALUE);
+        ItemStack ironShovel     = new ItemStack(Items.iron_shovel,1,WILDCARD_VALUE);
+        ItemStack woodenHoe      = new ItemStack(Items.wooden_hoe,1,WILDCARD_VALUE);
+        ItemStack stoneHoe       = new ItemStack(Items.stone_hoe,1,WILDCARD_VALUE);
+        ItemStack ironHoe        = new ItemStack(Items.iron_hoe,1,WILDCARD_VALUE);
+        ItemStack xpCrystal      = new ItemStack(ModItems.xpCrystal,1,WILDCARD_VALUE);
 
         //XpIngot
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.xpIngot), new Object[]{Items.iron_ingot,Items.emerald,Items.iron_ingot});
-        //XpEnderPearl
-        GameRegistry.addRecipe(new ItemStack(ModItems.xpEnderPearl,1,ConfigurationHandler.pearlMaxCharge),      new Object[]{" A ","ABA"," A ",'A', Items.ender_pearl, 'B', xpCrystal});
+
+
+        GameRegistry.addRecipe(new ItemStack(ModItems.xpEnderPearl,1,ConfigurationHandler.pearlMaxCharge), new Object[]{" A ","ABA"," A ",'A', Items.ender_pearl, 'B', xpCrystal});
+      //GameRegistry.addRecipe(new Itemstack(ModItems.magicMirror,1,ConfigurationHandler.mirrorMaxCharge), new Object[]{"","","",'A',,'B',});
+
         //XpCrystals
         GameRegistry.addRecipe(new ItemStack(ModItems.xpCrystal,1,500),      new Object[]{" A ","ABA"," A ",'A', ModItems.xpIngot, 'B', Items.emerald});
-        GameRegistry.addRecipe(new ItemStack(ModItems.xpCrystalT2,1,ConfigurationHandler.crystalT2Durability),  new Object[]{" A ","ABA"," A ",'A', ModItems.xpIngot, 'B', xpCrystal});
-        //GameRegistry.addRecipe(new ItemStack(ModItems.xpCrystalT3,1,ConfigurationHandler.crystalT3Durability),new Object[]{" A ","ABA"," A ",'A', ModItems.xpIngot, 'B', Items.emerald});
+        GameRegistry.addRecipe(new ItemStack(ModItems.xpCrystalT2,1,1000),  new Object[]{" A ","ABA"," A ",'A', ModItems.xpIngot, 'B', xpCrystal});
+        //GameRegistry.addRecipe(new ItemStack(ModItems.xpCrystalT3,1,2500),new Object[]{" A ","ABA"," A ",'A', ModItems.xpIngot, 'B', Items.emerald});
         //XpTools
         GameRegistry.addRecipe(new ItemStack(ModItems.xpPickaxe,1,1000),   new Object[]{"ACA"," B "," B ",'A', ModItems.xpIngot, 'B', Items.stick, 'C', xpCrystal});
         GameRegistry.addRecipe(new ItemStack(ModItems.xpAxe,1,1000),       new Object[]{" CA"," BA"," B ",'A', ModItems.xpIngot, 'B', Items.stick, 'C', xpCrystal});

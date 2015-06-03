@@ -23,29 +23,31 @@ public class itemXpEnderP extends item_exptools {
             return p_77659_1_;
         } else {
 
-            if (p_77659_3_.isSneaking()) if (p_77659_1_.getItemDamage() > 0) {
-                float additionalXp = Math.round(p_77659_3_.experience * 10);
-                float pitch = 5.0f / p_77659_1_.getItemDamage();
-                if (additionalXp > 0) {
-                    p_77659_3_.addExperience(-1);
-                    p_77659_1_.damageItem(-1, p_77659_3_);
-                    p_77659_2_.playSoundAtEntity(p_77659_3_, "note.bass", 0.5F, pitch);
-                } else if (p_77659_3_.experienceLevel > 0) {
-                    p_77659_3_.addExperienceLevel(-1);
-                    p_77659_1_.damageItem(-1, p_77659_3_);
-                    if (p_77659_3_.experienceLevel <= 15) {
-                        p_77659_3_.addExperience(16);
-                    } else if (p_77659_3_.experienceLevel <= 30) {
-                        p_77659_3_.addExperience(19);
+            if (p_77659_3_.isSneaking()) {
+                if (p_77659_1_.getItemDamage() > 0) {
+                    float additionalXp = Math.round(p_77659_3_.experience * 10);
+                    float pitch = 5.0f / p_77659_1_.getItemDamage();
+                    if (additionalXp > 0) {
+                        p_77659_3_.addExperience(-1);
+                        p_77659_1_.damageItem(-1, p_77659_3_);
+                        p_77659_2_.playSoundAtEntity(p_77659_3_, "note.bass", 0.5F, pitch);
+                    } else if (p_77659_3_.experienceLevel > 0) {
+                        p_77659_3_.addExperienceLevel(-1);
+                        p_77659_1_.damageItem(-1, p_77659_3_);
+                        if (p_77659_3_.experienceLevel <= 15) {
+                            p_77659_3_.addExperience(16);
+                        } else if (p_77659_3_.experienceLevel <= 30) {
+                            p_77659_3_.addExperience(19);
+                        } else {
+                            p_77659_3_.addExperience(63);
+                        }
+                        p_77659_2_.playSoundAtEntity(p_77659_3_, "note.bass", 0.5F, pitch);
                     } else {
-                        p_77659_3_.addExperience(63);
+                        p_77659_2_.playSoundAtEntity(p_77659_3_, "random.fizz", 0.5F, 0.4F / (itemRand.nextFloat() * 0.4F + 0.8F));
                     }
-                    p_77659_2_.playSoundAtEntity(p_77659_3_, "note.bass", 0.5F, pitch);
                 } else {
-                    p_77659_2_.playSoundAtEntity(p_77659_3_, "random.fizz", 0.5F, 0.4F / (itemRand.nextFloat() * 0.4F + 0.8F));
+                    p_77659_2_.playSoundAtEntity(p_77659_3_, "random.wood_click", 0.5F, 0.4F / (itemRand.nextFloat() * 0.4F + 0.8F));
                 }
-            } else {
-                p_77659_2_.playSoundAtEntity(p_77659_3_, "random.wood_click", 0.5F, 0.4F / (itemRand.nextFloat() * 0.4F + 0.8F));
             }
             else if (!p_77659_2_.isRemote){
                 if (p_77659_1_.getItemDamage()==(ConfigurationHandler.pearlMaxCharge)) {
@@ -57,9 +59,5 @@ public class itemXpEnderP extends item_exptools {
         }
         return p_77659_1_;
     }
-
-
-
-
 }
 
